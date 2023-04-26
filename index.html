@@ -6,21 +6,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio Web</title>
+    <style>
+        p {
+            text-indent: 40px;
+        }
+
+        #me-name {
+            color: dimgray;
+        }
+
+        #me-photo {
+
+            text-align: center;
+
+        }
+
+        @media (min-width: 759px) {
+            #me-photo-jpg {
+                border-radius: 100%;
+                width: 100%;
+
+            }
+
+            #me-photo {
+                max-width: 30%;
+                min-width: 100px;
+                text-align: center;
+
+            }
+
+            .container {
+                display: flex;
+                padding: 0px 0px;
+
+
+            }
+
+            .container-item {
+                padding: 0px 10px
+            }
+
+
+
+            #me-text {
+                max-width: 100%;
+
+            }
+
+            h2 {
+                margin: 0px
+            }
+
+        }
+
+
+
+        @media (max-width: 759px) {
+            #me-photo-jpg {
+                border-radius: 100%;
+                max-width: 250px;
+            }
+        }
+    </style>
 </head>
 
 <body>
-    <div id="about-me">
-        <div id="me-photo">
-            <img src="https://rothbardbrasil.com/wp-content/uploads/2009/01/anarcocapitalismo-450x450.jpg"
-                alt="Foto de perfil de Ruan Chagas" width="50%">
-            <h3><em>Ruan Chagas</em></h3>
+    <div class="container" id="about-me">
+        <div class="container-item" id="me-photo">
+            <img id="me-photo-jpg"
+                src="https://rothbardbrasil.com/wp-content/uploads/2009/01/anarcocapitalismo-450x450.jpg"
+                alt="Foto de perfil de Ruan Chagas">
+            <div id="me-name">
+                <h2><em>Ruan Chagas</em></h2>
+            </div>
         </div>
 
-        <div id="me-text">
-            <p>Nascido no Rio de janeiro, moro atualmente em <span id='me-city'>Belford roxo, RJ</span>.</p>
-            <p>
-                Sou apaixonado por tecnologias, Games e Inteligências artificiais estão no meu dia a dia, mas sem deixar de lado o velho violão. Depois de anos "brincando" com programação, finalmente me tornei aluno da <a href='https://www.betrybe.com/' target="_blank" alt="link para trybe">Trybe</a> no início de 2023 para começar a trilhar o caminho do desenvolvimento profissional.
-            </p>
+        <div class="container-item" id="me-text">
+            <h2>
+                <p>Nascido no Rio de janeiro, moro atualmente em <span id='me-city'>Belford roxo, RJ</span>.
+                    Apaixonado por tecnologias, Games e Inteligências artificiais estão no meu dia a dia, mas sem
+                    deixar
+                    de lado o velho violão. Depois de anos "brincando" com programação, finalmente me tornei aluno da <a
+                        href='https://www.betrybe.com/' target="_blank" alt="link para trybe">Trybe</a> no início de
+                    2023
+                    para começar a trilhar o caminho do desenvolvimento profissional.
+                </p>
+            </h2>
         </div>
 
     </div>
