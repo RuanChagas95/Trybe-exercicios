@@ -10,9 +10,10 @@ p {
 
     text-align: center;
     background-color: yellow;
-    
+
 
 }
+
 .photo {
     border-radius: 100%;
 }
@@ -20,11 +21,11 @@ p {
 @media (min-width: 759px) {
     #me-photo-jpg {
         width: 136px;
-        
+
     }
 
     #me-photo {
-        
+
         max-width: 33.33%;
         max-height: 167px;
         border-radius: 15%;
@@ -45,7 +46,7 @@ p {
 
     #me-text {
         max-width: 1000px;
-        
+
     }
 
     h2 {
@@ -59,16 +60,18 @@ p {
 @media (max-width: 759px) {
     #me-photo-jpg {
         max-width: 250px;
-        
+
     }
+
     #me-photo {
         border-radius: 40%;
-        
+
     }
-    #mephoto h2{        
-    margin-top: 0px;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
+
+    #mephoto h2 {
+        margin-top: 0px;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
 
     }
 }
