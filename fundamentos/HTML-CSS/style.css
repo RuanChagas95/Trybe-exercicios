@@ -1,0 +1,59 @@
+p {
+    text-indent: 40px;
+}
+
+#me-name {
+    color: dimgray;
+}
+
+#me-photo {
+
+    text-align: center;
+
+}
+
+@media (min-width: 759px) {
+    #me-photo-jpg {
+        border-radius: 100%;
+        width: 100%;
+        min-width: 136px;
+    }
+
+    #me-photo {
+        
+        text-align: center;
+        max-width: 33.33%;
+    }
+
+    .container {
+        display: flex;
+        padding: 0px 0px;
+
+
+    }
+
+    .container-item {
+        padding: 0px 10px
+    }
+
+
+
+    #me-text {
+        max-width: 100%;
+        
+    }
+
+    h2 {
+        margin: 0px
+    }
+
+}
+
+
+
+@media (max-width: 759px) {
+    #me-photo-jpg {
+        border-radius: 100%;
+        max-width: 250px;
+    }
+}
