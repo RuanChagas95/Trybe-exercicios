@@ -12,8 +12,13 @@ games.push([studentName, studentGame]);
 //Faz sorteio
 megaSenaGame = [];
 for (let i = 0; i < 6; i++){
-    megaSenaGame.push(Math.floor(Math.random() * 60 + 1))
+    randomNumber = Math.floor(Math.random() * 60 + 1);
+    while (megaSenaGame.includes(randomNumber)){
+        randomNumber = Math.floor(Math.random() * 60 + 1);
+    }
+    megaSenaGame.push(randomNumber);
 }
+
 
 //verifica acerto e retorna as estatísticas no console
 for (let game of games){
