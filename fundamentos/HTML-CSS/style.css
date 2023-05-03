@@ -9,6 +9,7 @@ p {
 #me-photo {
 
     text-align: center;
+
     background-color: yellow;
 
 
@@ -16,10 +17,12 @@ p {
 
 .photo {
     border-radius: 100%;
+
 }
 
 @media (min-width: 759px) {
     #me-photo-jpg {
+
         width: 136px;
 
     }
@@ -29,6 +32,7 @@ p {
         max-width: 33.33%;
         max-height: 167px;
         border-radius: 15%;
+
     }
 
     .container {
@@ -39,13 +43,17 @@ p {
     }
 
     .container-item {
+
         padding: 0px 20px
+
     }
 
 
 
     #me-text {
+
         max-width: 1000px;
+
 
     }
 
@@ -59,6 +67,7 @@ p {
 
 @media (max-width: 759px) {
     #me-photo-jpg {
+
         max-width: 250px;
 
     }
@@ -72,6 +81,7 @@ p {
         margin-top: 0px;
         margin-bottom: 20px;
         padding-bottom: 20px;
+
 
     }
 }
