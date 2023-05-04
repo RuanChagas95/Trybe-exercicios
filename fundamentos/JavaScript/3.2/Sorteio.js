@@ -39,11 +39,7 @@ for (let game of games){
             wrongs += 1
             wrongNumbers.push(value)
 
-        }
-
-
-
-      
+        }      
     }
     
     console.log('Numeros Sorteados: ', megaSenaGame);    
