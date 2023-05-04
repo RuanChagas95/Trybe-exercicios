@@ -6,7 +6,7 @@ studentName = 'Neidson';
 studentGame = [18, 26, 35, 50, 60, 5];
 games.push([studentName, studentGame]);
 studentName = 'RuanChagas';
-studentGame = [10, 27, 8, 12, 2, 21];
+studentGame = [11, 28, 9, 13, 3, 22];
 games.push([studentName, studentGame]);
 
 //Faz sorteio
@@ -31,15 +31,15 @@ for (let game of games){
 
     
     for (value of studentGame){
-        for (megaValue of megaSenaGame){
-            if (value == megaValue){
-                hits += 1
-                correctNumbers.push(value)
-            } else{
-                wrongs += 1
-                wrongNumbers.push(value)
-            }
-        }    
+        if (megaSenaGame.includes(value)){
+            hits += 1
+            correctNumbers.push(value)
+        }else{
+
+            wrongs += 1
+            wrongNumbers.push(value)
+
+        }      
     }
     
     console.log('Numeros Sorteados: ', megaSenaGame);    
