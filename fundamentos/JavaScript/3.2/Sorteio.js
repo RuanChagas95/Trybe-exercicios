@@ -43,15 +43,7 @@ for (let game of games){
 
 
 
-        // for (megaValue of megaSenaGame){
-        //     if (value == megaValue){
-        //         hits += 1
-        //         correctNumbers.push(value)
-        //     } else{
-        //         wrongs += 1
-        //         wrongNumbers.push(value)
-        //     }
-        // }    
+      
     }
     
     console.log('Numeros Sorteados: ', megaSenaGame);    
