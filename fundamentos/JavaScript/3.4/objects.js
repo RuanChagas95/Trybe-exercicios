@@ -113,9 +113,3 @@ let order = {
     return `${infoOla}, ${infoEntrega}, ${infoPhone}, ${infoAdress}`
   }
   console.log(customerInfo(order))
-  
-
-
-
-
-
