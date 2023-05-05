@@ -10,3 +10,7 @@ console.log(consoleText);
 // Object.assign(info, {recorrente: 'Sim'}) //boolean?
 info['recorrente'] = 'sim' //boolean
 console.log(info);
+//3 - Faça um for/in que mostre todas as chaves do objeto.
+for (key in info){
+    console.log(key);
+}
