@@ -18,3 +18,17 @@ for (key in info){
 for (key in info){
     console.log(info[key]);
 }
+//5 - Agora, defina um segundo objeto com a mesma estrutura (as mesmas chaves) do primeiro e os seguintes valores: “Tio Patinhas”, “Christmas on Bear Mountain, Dell’s Four Color Comics #178”, “O último MacPatinhas”, “Sim”. Então, imprima os valores de cada objeto juntos, de acordo com cada uma das chaves.
+
+//cria novo objeto
+let newObject = Object.assign({}, info)
+let values = ['Tio Patinhas', 'Christmas on Bear Mountain, Dell’s Four Color Comics #178', 'O último MacPatinhas', 'Sim'];
+let count = 0;
+for (key in newObject){
+    
+    newObject[key] = values[count]
+    count += 1
+}
+for (key in info){
+    console.log(`${info[key]} e ${newObject[key]}`)
+}
